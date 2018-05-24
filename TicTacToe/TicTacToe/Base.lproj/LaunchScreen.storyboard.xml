@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="e0O-II-3pU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TicTacToe" translatesAutoresizingMaskIntoConstraints="NO" id="Z3n-fE-rLN">
+                                <rect key="frame" x="20" y="28" width="374" height="688"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="© Matteo Marchesini" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7On-T7-oRs">
+                                <rect key="frame" x="17.5" y="692" width="380" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="e0O-II-3pU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="4MH-Jh-Zi1"/>
+                            <constraint firstItem="e0O-II-3pU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="DLy-4D-wCS"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="e0O-II-3pU" secondAttribute="bottom" id="JZu-d7-HZY"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="e0O-II-3pU" secondAttribute="bottom" id="Pih-iN-zfj"/>
+                            <constraint firstAttribute="trailing" secondItem="e0O-II-3pU" secondAttribute="trailing" id="Ski-qA-O0Y"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Z3n-fE-rLN" secondAttribute="bottom" constant="20" id="XAE-Pw-5ns"/>
+                            <constraint firstItem="Z3n-fE-rLN" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" id="fIb-xd-Dak"/>
+                            <constraint firstItem="Z3n-fE-rLN" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="qKw-Mg-kOE"/>
+                            <constraint firstAttribute="trailing" secondItem="e0O-II-3pU" secondAttribute="trailing" id="wdG-Vq-Zeo"/>
+                            <constraint firstItem="e0O-II-3pU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="x6c-2t-IqW"/>
+                            <constraint firstItem="e0O-II-3pU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ygt-Px-oKN"/>
+                            <constraint firstItem="Z3n-fE-rLN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="zaj-EV-JP4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-880.79999999999995" y="-121.88905547226388"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TicTacToe" width="1279" height="601"/>
+        <image name="background" width="3388" height="2197"/>
+    </resources>
+</document>
