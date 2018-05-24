@@ -1,6 +1,5 @@
 # TicTacToe
 
-# Scopo
 L’applicazione permette a due giocatori di sfidarsi a TicTacToe uno contro l’altro cercando la combinazione esatta (“Tris”) della stessa figura per poter vincere la partita.
 
 # Funzionalità previste
@@ -11,5 +10,7 @@ All’avio dell’app e anche durante il match sarà possibile attivare/disattiv
 
 # Requisiti
 Per il corretto funzionamento della condivisione del proprio risultato/commento in Facebook e Twitter è consigliato avere l’accesso diretto a tali social direttamente dal proprio iPhone (modificabile in Impostazioni).
+
 L’applicazione è stata sviluppata in Swift3 tramite Xcode8 pertanto è compatibile fino a iOS10.3 (ulteriori upgrade non sono garanti) con tutti i tipi di iPhone.
+
 Non è possibile utilizzare l’app con il telefono orizzontalmente ma solo verticalmente in quanto si ritiene che vi sia una miglior praticità e usabilità dell’app e dello stesso dispositivo.
